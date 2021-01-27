@@ -1,0 +1,61 @@
+{
+  "pascal":
+  {
+    "data_path": "/home/ljm/HuLei/ImageSet/VOC2012/VOCdevkit/VOC2012/"
+  },
+
+  "sbd":
+  {
+    "data_path": "/home/ljm/HuLei/ImageSet/benchmark_RELEASE/"
+  },
+
+  "camvid":
+  {
+    "data_path": "/Users/meet/data/CamVid/"
+  },
+  
+  "ade20k":
+  {
+    "data_path": "/home/meet/datasets/ADE20K/"
+  },
+  
+  "mit_sceneparsing_benchmark":
+  {
+    "data_path": "/home/ubuntu/DATA/ADEChallengeData2016/"
+  },
+
+  "nyuv2":
+  {
+    "data_path": "/home/meet/datasets/NYUv2/"
+  },
+
+  "sunrgbd":
+  {
+    "data_path": "/home/meet/datasets/SUNRBGD/"
+  },
+  "MiniSAR":
+  {
+    "data_path":"/media/hulei/disk/hulei/Dataset/MiniSAR/"
+  },
+  "Aerial":
+  {
+    "data_path":"media/hulei/disk/hulei/Dataset/Aerial/"
+  },
+  "WHU":
+  {
+    "data_path":"media/hulei/disk/hulei/Dataset/WHU_Building/"
+  },
+  "Mass_road":
+  {
+    "data_path":"/media/hulei/disk/hulei/Dataset/mass_roads"
+  },
+  "Crack":
+  {
+    "data_path":"/media/hulei/disk/hulei/Dataset/CrackDataset"
+  },
+  
+  "cityscapes":
+  {
+    "data_path": "/home/meet/datasets/cityscapes/"
+  }
+}
