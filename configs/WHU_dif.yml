@@ -1,0 +1,46 @@
+model:
+    arch: difpyramidnet
+data:
+    dataset: WHU
+    train_split: train
+    val_split: test
+    img_rows: 512
+    img_cols: 512
+    path: /media/hulei/disk/hulei/Dataset/WHU_Building
+training:
+    train_iters: 59200
+    batch_size: 16
+    val_interval: 296
+    n_workers: 16
+    print_interval: 296
+    optimizer:
+        name: 'sgd'
+        lr: 4.0e-3
+        weight_decay: 0.0005
+        momentum: 0.95
+    augmentations:
+        hflip: 0.5
+        vflip: 0.5
+
+        rotate: 10
+
+    loss:
+        name: 'dice_bce_loss'
+        size_average: True
+        weight: [1.54, 3.57]
+
+    lr_schedule:
+        name: 'poly_lr'
+        max_iter: 59200
+
+    resume:
+threshold: 0.6
+
+
+
+
+
+
+
+
+
