@@ -1,0 +1,6 @@
+{
+    "threshold":{"_type":"uniform","_value":[0.50,0.60]},
+    "lr":{"_type":"choice","_value":[0.004,0.002]},
+    "sgd_momentum":{"_type":"uniform","_value":[0.90, 0.99]},
+    "sgd_weight_decay":{"_type":"uniform","_value":[0.002, 0.003]}
+}
