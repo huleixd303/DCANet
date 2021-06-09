@@ -14,7 +14,7 @@ from ptsemseg.models.Dlinknet import *
 #from ptsemseg.models.base import *
 from ptsemseg.models.mutiDlinknet import *
 from ptsemseg.models.pyramidnet import *
-from ptsemseg.models.difpyramidnet import *
+from ptsemseg.models.DCANet import *
 from ptsemseg.models.contextDlinknet import *
 from ptsemseg.models.attentiondifnet import *
 from ptsemseg.models.SKDlinknet import *
@@ -252,7 +252,7 @@ def _get_model_instance(name):
             "Dlinknet":DinkNet34_less_pool,
             "mutiDlinknet":MutiDlinknet,
             "pyramidnet":DlinkPyramidNet,
-            "difpyramidnet":DifPyramidNet,
+            "DCANet":DCANet,
             "contextDlinknet":ContextNet,
             "attentiondifnet":AttentionPyramidNet,
             "SKDlinkNet":SKDlinkNet,
